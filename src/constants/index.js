@@ -1,4 +1,8 @@
-
+import zilli from "../assets/zilli.png";
+import aibrilliance from "../assets/aibrilliance.png";
+import salman from "../assets/salman.jpeg";
+import najeeb from "../assets/najeeb.jpeg";
+import zafar from "../assets/zafar.jpeg";
 import {
   logo,
   backend,
@@ -71,7 +75,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Ui UX Designer",
+    title: "Next.js Developer",
     icon: creator,
   },
 ];
@@ -92,20 +96,6 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "gsap",
-    icon: gsap,
-  },
-  {
-    name: "framer",
-    icon: framer,
-  },
-
- 
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "figma",
@@ -139,10 +129,6 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "MySql",
-    icon: mysql,
-  },
 
   {
     name: "git",
@@ -155,10 +141,10 @@ const technologies = [
 const experiences = [
   {
     title: "Full-Stack Developer",
-    company_name: "Tekisky",
+    company_name: "Teqnify Solutions",
     icon: tekisky,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "2023 - 2025 - present",
     points: [
       "Developing and maintaining web applications using MERN technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -171,35 +157,35 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-    name: "MD Mustaqeem",
+      "I thought it was impossible to make a website as beautiful as our product, but Adhil proved me wrong.",
+    name: "MD Salman Farisi",
     designation: "Ecommerce",
-    company: "QuickMart",
-    image: firstTestimonial,
+    company: "Teqnify",
+    image: salman,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
-    company: "justbuyz",
-    image: secondTestimonial,
+      "I've never met a web developer who truly cares about their clients' success like Adhil does.",
+    name: "Muhammed Najeeb",
+    designation: "Ecommerce",
+    company: "Teqnify",
+    image: najeeb,
   },
   {
     testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "James Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: thirdTestimonial,
+      "After Adhil optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Zafar Irshad",
+    designation: "Ecommerce",
+    company: "Teqnify",
+    image: zafar ,
   },
 ];
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "Zilli Dubai",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "Zilli Dubai is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
     tags: [
       {
         name: "react",
@@ -219,34 +205,36 @@ const projects = [
       },
  
     ],
-    image: project2,
-    source_code_link: "https://github.com/",
+    image:zilli ,
   },
   {
-    name: "GearXpert",
+    name: "AI Brilliance",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "AI Brilliance is a modern e-learning platform that uses AI to deliver personalized courses it empowers learners to unlock their full potential and adaptive learning paths for students and professionals.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "emailJs",
-        color: "green-text-gradient",
+        name: "tailwind",
+        color: "white-text-gradient",
       },
       {
-        name: "Gsap",
+        name: "node",
         color: "pink-text-gradient",
       },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
     ],
-    image: gearXpert,
-    source_code_link: "https://github.com/",
+    image: aibrilliance,
   },
   {
-    name: "GoGroove-Ecommerce",
+    name: "Hopsies",
     description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "Hopsies is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
     tags: [
       {
         name: "react",
@@ -266,7 +254,6 @@ const projects = [
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/",
   },
 ];
 
