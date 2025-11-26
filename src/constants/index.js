@@ -144,7 +144,7 @@ const experiences = [
     company_name: "Teqnify Solutions",
     icon: tekisky,
     iconBg: "#383E56",
-    date: "2023 - 2025 - present",
+    date: "2022 - 2025 - present",
     points: [
       "Developing and maintaining web applications using MERN technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
