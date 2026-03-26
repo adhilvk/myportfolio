@@ -141,15 +141,15 @@ const technologies = [
 const experiences = [
   {
     title: "Full-Stack Developer",
-    company_name: "Teqnify Solutions",
+    company_name: "GPG Global Real Estate",
     icon: tekisky,
     iconBg: "#383E56",
-    date: "2022 - 2025 - present",
+    date: "2025 - 2026 - present",
     points: [
       "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implemented basic SEO practices including meta tags, semantic HTML, and accessibility-focused markup.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built responsive frontend interfaces using React.js with SEO-friendly structure and consistent UI across devices.",
     ],
   },
 ];
